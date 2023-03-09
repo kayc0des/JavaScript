@@ -10,7 +10,7 @@ if (age >= 65) {
     console.log("You get an allowance");
 } else {
     console.log("The value of the age variable is not numerical");
-};
+}
 
 
 /* Code the days of the week program as a switch statement */
@@ -41,4 +41,4 @@ switch(day) {
         break;
     default:
         console.log("There is no such day");
-};
+}
