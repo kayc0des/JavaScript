@@ -1,7 +1,7 @@
 /* how to build objects in javascript */
 
 //dot notation
-var student = {}
+var student = {};
 student.Name = "John";
 student.Age = 21;
 student.Class = "Year 1";
@@ -17,14 +17,14 @@ var teacher = {
     Age: 42,
     Course: "Javascript",
     Experience: "14 years"
-}
+};
 
 console.log(teacher);
 console.log(teacher.Course);
 
-//brackets 
+//brackets notation
 
-var director = {}
+var director = {};
 director["Name"] = "Fred Swaniker";
 director["Age"] = 45;
 director["Level"] = "PhD";
@@ -32,3 +32,5 @@ director["netWorth"] = "$20 Million"
 
 console.log(director);
 console.log(director.Name);
+
+console.log(Math.PI);
