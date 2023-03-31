@@ -10,4 +10,4 @@ function letterFinder(word, match) {
     }
 }
 
-letterFinder("test", "t");
+letterFinder("kingsley", "s");
