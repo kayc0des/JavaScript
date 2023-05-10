@@ -6,15 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript">
+      function validateForm() {
+        let x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+          alert("Please input your first name")
+          return false;
+        }
+      }
+    </script>
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+  <nav>
+    <ul>
+      <li><a id="home" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h2>JavaScript Validation</h2>
+
+  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+  </form>
+
+  <script type="text/javascript">
+    const homepage = document.getElementById("home");
+    console.log(homepage)
+  </script>
 </body>
 </html>
