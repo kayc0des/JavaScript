@@ -1,6 +1,6 @@
 # JavaScript
 
-This repository contains all JavaScript files and source code for my recently completed JavaScript Course authorized by Meta and offered throufh coursera.
+This repository contains all JavaScript files and source code for my recently completed JavaScript Course authorized by Meta and offered through coursera.
 
 Every Folder represents a learning module/chapter! 
 Link to course: https://www.coursera.org/learn/programming-with-javascript 
